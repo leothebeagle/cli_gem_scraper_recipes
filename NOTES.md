@@ -6,3 +6,8 @@
 6. Start making things real
 7. Discover objects
 8. Program
+
+A command line interface for recipes.
+some logic for the interface between user and program:
+- user types in recipes
+- show a list of recipes
