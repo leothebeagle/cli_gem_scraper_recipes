@@ -24,6 +24,8 @@ class Recipes::CLI
         puts "More info on recipe 2..."
       when "list"
         list_recipes
+      else
+        puts "not sure what you want type list or exit"
       end
     end
   end
