@@ -1,3 +1,2 @@
 #!/usr/bin/env ruby
 require './lib/recipes.rb'
-puts "Hello World"
