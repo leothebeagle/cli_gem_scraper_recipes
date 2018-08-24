@@ -11,3 +11,9 @@ A command line interface for recipes.
 some logic for the interface between user and program:
 - user types in recipes
 - show a list of recipes
+
+What is a recipe?
+
+A recipe has a name
+A recipe has a short description or blurb
+A recipe has a url
