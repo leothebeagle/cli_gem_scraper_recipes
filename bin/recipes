@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
 require './lib/recipes.rb'
+
+Recipes::CLI.new.call
