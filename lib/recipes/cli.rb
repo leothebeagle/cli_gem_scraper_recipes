@@ -4,6 +4,7 @@ class Recipes::CLI
     puts "Available recipes:"
     list_recipes
     menu
+    goodbye
   end
 
   def list_recipes
@@ -23,6 +24,10 @@ class Recipes::CLI
         puts "More info on recipe 2..."
       end
     end
+  end
+
+  def goodbye
+    puts "See you next time for your next recipe!"
   end
 
 end
