@@ -12,13 +12,16 @@ class Recipes::CLI
   end
 
   def menu
-    puts "Enter the number of the recipe you would like more info on:"
-    input = gets.strip
-    case input
-    when "1"
-      puts "More info on recipe 1..."
-    when "2"
-      puts "More info on recipe 2..."
+    input = nil
+    while input != "exit"
+      puts "Enter the number of the recipe you would like more info on:"
+      input = gets.strip.downcase
+      case input
+      when "1"
+        puts "More info on recipe 1..."
+      when "2"
+        puts "More info on recipe 2..."
+      end
     end
   end
 
