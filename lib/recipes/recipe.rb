@@ -1,9 +1,9 @@
 class Recipes::Recipe
-    attr_accessor :name,:description, :url 
+    attr_accessor :name,:description, :recipe_url 
 
   def self.all
-    puts "1. Grilled Chicken Sandwhich with Caesar-ish Dressing - Deeply charred mustardy chicken thighs are paired with a crunchy and refreshing fennel-basil slaw for the ultimate summer-night chicken sandwich. - https://www.bonappetit.com/recipe/grilled-chicken-sandwich-with-mustard-mayo"
-    puts "2. Corn Salsa - Whether it’s scooped up with tortilla chips or spooned over a simple fillet of fish, this zippy charred corn salsa is the ultimate peak-August condiment. - https://www.bonappetit.com/recipe/corn-salsa"
+    # puts "1. Grilled Chicken Sandwhich with Caesar-ish Dressing - Deeply charred mustardy chicken thighs are paired with a crunchy and refreshing fennel-basil slaw for the ultimate summer-night chicken sandwich. - https://www.bonappetit.com/recipe/grilled-chicken-sandwich-with-mustard-mayo"
+    # puts "2. Corn Salsa - Whether it’s scooped up with tortilla chips or spooned over a simple fillet of fish, this zippy charred corn salsa is the ultimate peak-August condiment. - https://www.bonappetit.com/recipe/corn-salsa"
 
     recipe_1 = self.new
     recipe_1.name = "Grilled Chicken Sandwhich with Caesar-ish Dressing"

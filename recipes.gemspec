@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["'Aziz Kosber'"]
   spec.email         = ["'a.kosber@gmail.com'"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A recipe CLI}
+  spec.description   = %q{scrapes BA site for recipes and allows user to interact with the recipes}
+  spec.homepage      = "https://github.com/leothebeagle/cli_gem_scraper_recipes"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
