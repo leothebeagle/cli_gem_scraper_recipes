@@ -16,9 +16,10 @@ class Recipes::CLI
     while input != "exit"
       puts "Enter the number of the recipe you would like more info on or type list to view the recipe list or type exit:"
       input = gets.strip.downcase
+      
       if input.to_i > 0
-        @recipes[input.to_i - 1]
-      elsif input == list
+        puts @recipes[input.to_i - 1]
+      elsif input == "list"
         list_recipes
       else 
         puts "not sure what you want type list or exit"
