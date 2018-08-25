@@ -9,6 +9,10 @@ class Recipes::CLI
 
   def list_recipes
     @recipes = Recipes::Recipe.all
+    @recipes.each.with_index(1) do |recipe, index|
+      puts "#{index}. #{recipe.name} - #{recipe.description}"
+    end
+    
   end
 
   def menu
