@@ -8,8 +8,7 @@ class Recipes::CLI
   end
 
   def list_recipes
-    puts "1. Tomato sauce - the trick is to use a little bit of anchovies - recipe-url"
-    puts "2. Omellette - it's all in the technique - recpe-url"
+    @recipes = Recipes::Recipe.all
   end
 
   def menu
