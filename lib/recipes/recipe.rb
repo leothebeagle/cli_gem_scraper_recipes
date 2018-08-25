@@ -1,5 +1,5 @@
-
 class Recipes::Recipe
+    attr_accessor :name,:description, :url 
 
   def self.all
     puts "1. Grilled Chicken Sandwhich with Caesar-ish Dressing - Deeply charred mustardy chicken thighs are paired with a crunchy and refreshing fennel-basil slaw for the ultimate summer-night chicken sandwich. - https://www.bonappetit.com/recipe/grilled-chicken-sandwich-with-mustard-mayo"
@@ -14,5 +14,7 @@ class Recipes::Recipe
     recipe_2.name = "Corn Salsa"
     recipe_2.description = "Whether it’s scooped up with tortilla chips or spooned over a simple fillet of fish, this zippy charred corn salsa is the ultimate peak-August condiment."
     recipe_2.recipe_url = "https://www.bonappetit.com/recipe/corn-salsa"
+
+    [recipe_1, recipe_2]
   end
 end
