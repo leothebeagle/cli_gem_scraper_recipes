@@ -22,7 +22,8 @@ class Recipes::CLI
       input = gets.strip.downcase
       
       if input.to_i > 0
-        puts @recipes[input.to_i - 1]
+        the_recipe = @recipes[input.to_i - 1]
+        puts "#{the_recipe.name} - #{the_recipe.description}"
       elsif input == "list"
         list_recipes
       else 
